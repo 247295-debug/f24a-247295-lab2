@@ -2,3 +2,64 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 17px;
+    line-height: 1.45;
+    color: #222;
+    background: #f6f4ef;
+}
+
+header {
+    background: #1a2744;
+    color: #fff;
+    padding: 1rem 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    background: #1a2744;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 1.5rem;
+    background: #eee;
+}
+
+nav a {
+    color: #1a2744;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #c45c26;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+section {
+    max-width: 52rem;
+    margin: 1rem auto;
+    padding: 0 1.5rem;
+}
+
+section h2 {
+    color: #1a2744;
+    border-bottom: 2px solid #c45c26;
+    padding-bottom: 0.5rem;
+}
+
